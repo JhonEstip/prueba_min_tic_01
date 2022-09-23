@@ -5,144 +5,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>prueba 1</title>
 </head>
 
 <body>
-    <h3>Formulario de INPUTS</h3>
-    <table border="1">
-        <form action="">
-            <tr style="text-align: center; background-color: aqua;">
-                <td>Input</td>
-                <td>Example</td>
-            </tr>
-            <tr>
-                <td>Seleciona gustos</td>
-                <td>
-                    <label for="gusto1">hombres</label>
-                    <input type="checkbox" id="gusto1" name="gustos">
-                    <label for="gusto2">Mujeres</label>
-                    <input type="checkbox" id="gusto2" name="gustos">
-                </td>
-            </tr>
-            <tr>
-                <td>Selecciona color favorito</td>
-                <td>
-                    <input type="color" id="color" name="color">
-                </td>
-            </tr>
-            <tr>
-                <td>Fecha de nacimiento</td>
-                <td>
-                    <input type="date" id="date" name="date">
-                </td>
-            </tr>
-            <tr>
-                <td>Hora y Fecha de llenado del formulario</td>
-                <td>
-                    <input type="datetime-local" name="datetime-local" id="datetime-local">
-                </td>
-            </tr>
-            <tr>
-                <td>Ingresa tu correo</td>
-                <td>
-                    <input type="email" name="email" id="email" placeholder="a@a.com">
-                </td>
-            </tr>
-            <tr>
-                <td>Carga una imagen de perfil</td>
-                <td>
-                    <input type="file" id="image" name="image">
-                </td>
-            </tr>
-            <tr>
-                <td>Selecciona el mes de tu cumpleaños</td>
-                <td>
-                    <input type="month" name="month" id="month">
-                </td>
-            </tr>
-            <tr>
-                <td>Ingresa tu edad</td>
-                <td>
-                    <input type="number" id="number" name="number" placeholder="15">
-                </td>
-            </tr>
-            <tr>
-                <td>Ingresa una contraseña</td>
-                <td>
-                    <input type="password" name="password" id="password" placeholder="***">
-                </td>
-            </tr>
-            <tr>
-                <td>Seleciona tu genero</td>
-                <td>
-                    <label for="radio1">Masculino</label>
-                    <input type="radio" id="radio1" name="radio1">
-                    <label for="radio2">Femenino</label>
-                    <input type="radio" id="radio2" name="radio1">
-                </td>
-            </tr>
-            <tr>
-                <td>Selecciona tu gusto por la musica</td>
-                <td>
-                    <input type="range" min="0" max="100" name="range" id="range">
-                </td>
-            </tr>
-            <tr>
-                <td>Que quieres buscar</td>
-                <td>
-                    <input type="search" id="search" name="search" placeholder="buscar....">
-                </td>
-            </tr>
-            <tr>
-                <td>Ingresa tu numero telefonico</td>
-                <td>
-                    <input type="tel" name="tel" id="tel" placeholder="1234556">
-                </td>
-            </tr>
-            <tr>
-                <td>Ingresa tu nombre</td>
-                <td>
-                    <input type="text" name="text" id="text" placeholder="name">
-                </td>
-            </tr>
-            <tr>
-                <td>Ingresa la hora de despertar</td>
-                <td>
-                    <input type="time" name="time" id="time">
-                </td>
-            </tr>
-            <tr>
-                <td>Link de tu pagina</td>
-                <td>
-                    <input type="url" name="url" id="url">
-                </td>
-            </tr>
-            <tr>
-                <td>Ingresa la semana de vacaiones</td>
-                <td>
-                    <input type="week" name="week" id="week">
-                </td>
-            </tr>
-            <tr>
-                <td>Oculto</td>
-                <td>
-                    <input type="hidden" name="hidden" id="hidden" value="hidden">
-                </td>
-            </tr>
-            <tr style="text-align: center">
-                <td>
-                    <input type="button" name="button" id="button" value="BOTON">
-                    <input type="submit" name="submit" id="submit" value="SUBMIT">
-                </td>
-                <td>
-                    <input type="reset" name="reset" id="reset" value="RESET">
-                </td>
-            </tr>
-        </form>
-    </table>
+    <div class="contenedor">
+        <div class="separador1">
+            <h3>Formulario de INPUTS</h3>
+            <table border="1">
+                <form action="">
+                    <tr style="text-align: center; background-color: aqua;">
+                        <td id="izs">Input</td>
+                        <td id="des">Example</td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Seleciona gustos</td>
+                        <td id="sexo">
+                            <label for="gusto1">hombres</label>
+                            <input type="checkbox" id="gusto1" name="gustos">
+                            <label for="gusto2">Mujeres</label>
+                            <input type="checkbox" id="gusto2" name="gustos">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Selecciona color favorito</td>
+                        <td>
+                            <input type="color" id="color" name="color">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Fecha de nacimiento</td>
+                        <td>
+                            <input type="date" id="date" name="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Hora y Fecha de llenado del formulario</td>
+                        <td>
+                            <input type="datetime-local" name="datetime-local" id="datetime-local">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Ingresa tu correo</td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="a@a.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Carga una imagen de perfil</td>
+                        <td>
+                            <input type="file" id="image" name="image">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Selecciona el mes de tu cumpleaños</td>
+                        <td>
+                            <input type="month" name="month" id="month">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Ingresa tu edad</td>
+                        <td>
+                            <input type="number" id="number" name="number" placeholder="15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Ingresa una contraseña</td>
+                        <td>
+                            <input type="password" name="password" id="password" placeholder="***">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Seleciona tu genero</td>
+                        <td>
+                            <label for="radio1">Masculino</label>
+                            <input type="radio" id="radio1" name="radio1">
+                            <label for="radio2">Femenino</label>
+                            <input type="radio" id="radio2" name="radio1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Selecciona tu gusto por la musica</td>
+                        <td>
+                            <input type="range" min="0" max="100" name="range" id="range">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Que quieres buscar</td>
+                        <td>
+                            <input type="search" id="search" name="search" placeholder="buscar....">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Ingresa tu numero telefonico</td>
+                        <td>
+                            <input type="tel" name="tel" id="tel" placeholder="1234556">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Ingresa tu nombre</td>
+                        <td>
+                            <input type="text" name="text" id="text" placeholder="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Ingresa la hora de despertar</td>
+                        <td>
+                            <input type="time" name="time" id="time">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Link de tu pagina</td>
+                        <td>
+                            <input type="url" name="url" id="url">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Ingresa la semana de vacaiones</td>
+                        <td>
+                            <input type="week" name="week" id="week">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fondo-color">Oculto</td>
+                        <td>
+                            <input type="hidden" name="hidden" id="hidden" value="hidden">
+                        </td>
+                    </tr>
+                    <tr style="text-align: center">
+                        <td id="izi">
+                            <input class="btn" type="button" name="button" id="button" value="BOTON">
+                            <input class="btn" type="submit" name="submit" id="submit" value="SUBMIT">
+                        </td>
+                        <td id="dei">
+                            <input class="btn" type="reset" name="reset" id="reset" value="RESET">
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        
+            <h2 style="color: red;">EQUIPO 6 - G02</h2>
+        </div>
 
-    <h2 style="color: red;">EQUIPO 6 - G02</h2>
+    </div>
+    
 </body>
 
 </html>

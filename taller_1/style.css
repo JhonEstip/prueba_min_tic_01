@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background: url("https://depor.com/resizer/AqumEU289lv0mA_Mp4mCKFN0CTY=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/45TSOHPEO5H4ZAC5NHU4ZYBOMQ.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+}
+#sexo{
+    width: 20% !important;
+}
+input{
+    width: 80%;
+    margin: 0.2rem 0px 0.2rem 0px;
+}
+table{
+    text-align: center;
+    align-items: center;
+    width: 650px;
+}
+h3, h2{
+    text-align: center;
+}
+.fondo-color{
+    background-color: #34a1c2;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+td{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.btn{
+    background-color: #208ae7;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    border: #9cc6ea;
+    text-align: center;
+    margin: 10px 2rem 10px 2rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+table{
+    border-radius: 20px;
+}
+#izs{ border-top-left-radius: 20px;}
+#izi{ border-bottom-left-radius: 20px;}
+#des{ border-top-right-radius: 20px;}
+#dei{ border-bottom-right-radius: 20px;}
